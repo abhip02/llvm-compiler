@@ -1,5 +1,5 @@
 // To run:
-// clang++ -g -O3 lexer.cpp
+// clang++ -g -O3 parser.cpp
 // ./a.out
 
 #include <cctype>
@@ -19,7 +19,7 @@
 // of these for known things.
 enum Token {
   tok_eof = -1,
-
+  
   // commands
   tok_def = -2,
   tok_extern = -3,
